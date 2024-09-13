@@ -131,3 +131,16 @@ You can now perform Tekton development locally, just like in the Cloud IDE lab e
 Licensed under the Apache License. See [LICENSE](LICENSE)
 
 ## <h3 align="center"> © IBM Corporation 2022. All rights reserved. <h3/>
+
+# DevOps Capstone Project
+
+![Build Status](https://github.com/saakisaaki/devops-capstone-project/actions/workflows/ci-build.yaml/badge.svg)
+
+This repository is a comprehensive DevOps capstone project designed to demonstrate the integration of continuous integration and continuous deployment (CI/CD) practices using GitHub Actions. The project includes:
+
+CI Pipeline: Automated workflows for building, linting, and testing the application using GitHub Actions.
+Linting: Code quality checks with flake8 to ensure consistent style and adherence to best practices.
+Testing: Unit tests executed with nose and coverage reporting to validate the functionality of the application.
+Database Integration: Utilizes a Postgres database service for testing purposes within the CI pipeline.
+Build Badge: A status badge displayed in the README to reflect the current build status of the application.
+The project showcases how to automate code quality checks and testing, ensuring reliable and maintainable software development practices.
