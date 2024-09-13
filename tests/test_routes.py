@@ -141,3 +141,7 @@ class TestAccountService(TestCase):
     resp = self.client.get(f"{BASE_URL}/0")  # Assume 0 is an invalid ID
     self.assertEqual(resp.status_code, status.HTTP_404_NOT_FOUND)
 
+def test_read_account(self):
+    """It should Read a single Account"""
+    # Add the code here
+    pass  # Replace with actual test code
